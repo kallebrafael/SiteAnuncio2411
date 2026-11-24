@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação Full-Stack & UI/UX | DevStart Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de Urgência (Marketing Digital) -->
+    <div class="top-banner">
+        🔥 Últimas vagas com <strong>40% de desconto</strong> — Oferta encerra em: <span id="countdown">02:59:59</span>
+    </div>
+
+    <!-- Seção Principal (Hero Section) -->
+    <section class="landing-hero">
+        <div class="container grid-2">
+            <div class="hero-content">
+                <span class="tag">Metodologia 100% Prática</span>
+                <h1>Crie Interfaces Incríveis e Conquiste sua Vaga na Área de Tecnologia</h1>
+                <p>Deixe de lado cursos teóricos intermináveis. Construa um portfólio profissional em 12 semanas aplicando fundamentos reais de UI/UX e código limpo.</p>
+                
+                <ul class="benefits-list">
+                    <li>✅ Projetos reais prontos para o seu GitHub</li>
+                    <li>✅ Foco em UI/UX Design e Responsividade</li>
+                    <li>✅ Certificado reconhecido e revisão de currículo</li>
+                </ul>
+            </div>
+
+            <!-- Formulário de Captura (Conversão) -->
+            <div class="form-card">
+                <h3>Garanta sua Vaga com Desconto</h3>
+                <p>Preencha seus dados abaixo para liberar o acesso imediato à ementa e ao cupom promocional.</p>
+                
+                <form id="leadForm">
+                    <div class="input-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Ex: Kalleb Rafael" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Melhor E-mail</label>
+                        <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="nivel">Seu nível atual</label>
+                        <select id="nivel" required>
+                            <option value="">Selecione uma opção...</option>
+                            <option value="iniciante">Iniciante (Nunca programei)</option>
+                            <option value="basico">Básico (Conheço HTML/CSS)</option>
+                            <option value="intermediario">Intermediário (Quero me especializar)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-cta">QUERO MINHA VAGA AGORA</button>
+                </form>
+                <div id="feedbackMessage" class="feedback hidden"></div>
+                <small class="privacy-note">🔒 Seus dados estão 100% seguros. Livre de spam.</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Prova Social e Pilares de UX -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Por que aprender com a DevStart?</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="icon">🎨</div>
+                    <h3>Foco em UI & UX</h3>
+                    <p>Não basta funcionar: seus sites precisam encantar usuários e converter visitantes em clientes.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">💻</div>
+                    <h3>Código na Prática</h3>
+                    <p>Aprenda HTML5, CSS3 moderno e JavaScript desenvolvendo aplicações reais desde a primeira aula.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🚀</div>
+                    <h3>Preparação para o Mercado</h3>
+                    <p>Saiba como apresentar seus projetos, estruturar seu LinkedIn e se destacar em processos seletivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 DevStart Academy • Projeto de UI/UX & Marketing Digital</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
